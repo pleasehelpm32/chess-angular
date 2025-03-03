@@ -24,16 +24,16 @@ export enum FENChar {
 }
 
 export const pieceImagePaths: Readonly<Record<FENChar, string>> = {
-  [FENChar.WhitePawn]: 'assets/images/white pawn.svg',
-  [FENChar.WhiteKnight]: 'assets/images/white knight.svg',
-  [FENChar.WhiteBishop]: 'assets/images/white bishop.svg',
-  [FENChar.WhiteRook]: 'assets/images/white rook.svg',
-  [FENChar.WhiteQueen]: 'assets/images/white queen.svg',
-  [FENChar.WhiteKing]: 'assets/images/white king.svg',
-  [FENChar.BlackPawn]: 'assets/images/black pawn.svg',
-  [FENChar.BlackKnight]: 'assets/images/black knight.svg',
-  [FENChar.BlackBishop]: 'assets/images/black bishop.svg',
-  [FENChar.BlackRook]: 'assets/images/black rook.svg',
-  [FENChar.BlackQueen]: 'assets/images/black queen.svg',
-  [FENChar.BlackKing]: 'assets/images/black king.svg',
+  [FENChar.WhitePawn]: 'assets/pieces/white pawn.svg',
+  [FENChar.WhiteKnight]: 'assets/pieces/white knight.svg',
+  [FENChar.WhiteBishop]: 'assets/pieces/white bishop.svg',
+  [FENChar.WhiteRook]: 'assets/pieces/white rook.svg',
+  [FENChar.WhiteQueen]: 'assets/pieces/white queen.svg',
+  [FENChar.WhiteKing]: 'assets/pieces/white king.svg',
+  [FENChar.BlackPawn]: 'assets/pieces/black pawn.svg',
+  [FENChar.BlackKnight]: 'assets/pieces/black knight.svg',
+  [FENChar.BlackBishop]: 'assets/pieces/black bishop.svg',
+  [FENChar.BlackRook]: 'assets/pieces/black rook.svg',
+  [FENChar.BlackQueen]: 'assets/pieces/black queen.svg',
+  [FENChar.BlackKing]: 'assets/pieces/black king.svg',
 };
