@@ -131,7 +131,7 @@ export class ChessBoard {
             ) {
               if (checkingCurrentPosition)
                 this._checkState = { isInCheck: true, x: newX, y: newY };
-              return true;
+              return true; // Should be inside this block
             }
           } else {
             while (this.areCoordsValid(newX, newY)) {
@@ -142,8 +142,8 @@ export class ChessBoard {
               ) {
                 if (checkingCurrentPosition)
                   this._checkState = { isInCheck: true, x: newX, y: newY };
+                return true; // Move this line inside the if block
               }
-              return true;
 
               if (attackedPiece !== null) break;
 
